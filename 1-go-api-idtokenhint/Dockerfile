@@ -1,0 +1,8 @@
+FROM golang:alpine3.15
+
+WORKDIR /app
+
+COPY . .
+RUN go install
+
+CMD go run main.go $CONFIGFILE $ISSUANCEFILE $PRESENTATIONFILE $PEMFILEPASSWORD

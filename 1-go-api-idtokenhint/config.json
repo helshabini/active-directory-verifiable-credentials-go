@@ -1,0 +1,11 @@
+{
+    "azTenantId": "<YOUR-AAD-TENANDID>",
+    "azClientId": "<YOUR-AAD-CLIENTID-FOR-KEYVAULT-ACCESS>",
+    "azClientSecret": "<YOUR-AAD-CLIENTSECRET-FOR-KEYVAULT-ACCESS>",
+    "azPEMFileLocation": "",
+    "VerifiableCredentialsDefaultScope": "bbb94529-53a3-4be5-a069-7eaf2712b826/.default",
+    "msIdentityHostName": "https://beta.did.msidentity.com/v1.0/",
+    "CredentialManifest": "<YOUR-MANIFEST-URL>",
+    "IssuerAuthority": "<YOUR-did:ion>",
+    "VerifierAuthority": "<VCs-did:ion>"
+}
